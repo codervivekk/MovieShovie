@@ -28,7 +28,7 @@ const SwitchTabs = ({ data, onTabChange }) => {
                         {tab}
                     </span>
                 ))}
-                <span className="movingBg" style={{ left }} />
+                <span className="movingBg" style={{ left}} />
             </div>
         </div>
     );

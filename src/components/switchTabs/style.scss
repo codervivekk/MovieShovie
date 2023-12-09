@@ -1,6 +1,6 @@
 .switchingTabs {
     height: 34px;
-    background-color: white;
+    background-color: black;
     border-radius: 20px;
     padding: 2px;
     .tabItems {
@@ -20,15 +20,14 @@
             z-index: 1;
             cursor: pointer;
             transition: color ease 0.3s;
-            &.active {
-                color: white;
-            }
+            color: white;
         }
         .movingBg {
             height: 30px;
             width: 100px;
             border-radius: 15px;
-            background-image: var(--gradient);
+            // background-image: var(--gradient);
+            background-color: red;
             position: absolute;
             left: 0;
             transition: left cubic-bezier(0.88, -0.35, 0.565, 1.35) 0.4s;
